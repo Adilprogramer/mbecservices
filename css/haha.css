@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1005px;
+}
+a.a1 {
+    text-decoration: none;
+    margin: 10px 0.8rem;
+    color: black;
+}
+nav ul li {
+    list-style: none;
+    margin-top: 35px;
+}
+
+ul.ul1 {
+    justify-content: center;
+    position: relative;
+}
+img.logo {
+    width: 110px;
+    margin-left: 19px;
+}
+img.tag {
+    left: 248px ;
+    position: absolute;
+    width: 506px;
+    top: -168px;
+    z-index: -10;
+}
+button.quote {
+    position: absolute;
+    right: 9px;
+    top: 52px;
+    padding: 6px 11px;
+    border-radius: 19px;
+    font-size: 15px;
+    font-weight: 800;
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+}
+button.quote:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+section.our-services {
+    margin: 32px 0px 0px 21px;
+}
+h1.\31 h1 {
+    font-size: 57px;
+    font-weight: bolder;
+    color: #f7953f; 
+}
+p.p1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.carousel {
+    position: absolute;
+    top: 0px;
+    z-index: -100;
+}
+div#carouselExampleCaptions {
+    position: absolute;
+    height: 100vh;
+}
+.content-item.\31 {
+    height: 424px;
+    width: 16.66%;
+    border: 2px solid black;
+    overflow: hidden;
+}.content-item.\32 {
+    height: 424px;
+    width: 16.66%;
+    border: 2px solid black;
+    overflow: hidden;
+}.content-item.\34 {
+    height: 424px;
+    overflow: hidden;
+    width: 16.66%;
+    border: 2px solid black;
+}.content-item.\35 {
+    overflow: hidden;
+    width: 16.66%;
+    height: 424px;
+    border: 2px solid black;
+}.content-item.\33 {
+    overflow: hidden;
+    width: 33.33%;
+    height: 424px;
+    border: 2px solid red;
+}
+
+.con1{
+    overflow: hidden;
+    width: 50%;
+    border: 2px solid black;
+    height: 424px;
+}
+.content-item{
+    
+}
+@media only screen and (min-width: 1080px) {
+    .bro{
+        width: 1024px;
+    }
+    img.tag {
+        left: 337px;
+        position: absolute;
+        width: 506px;
+        top: -168px;
+        z-index: -10;
+    }
+    button.quote {
+        position: relative;
+        right: 1-717px;
+        top: -4px;
+        padding: 6px 11px;
+        border-radius: 19px;
+        font-size: 15px;
+        font-weight: 800;
+        background: linear-gradient(0deg, rgb(253, 187, 45) 0%, rgb(34, 193, 195) 100%);
+    } 
+     body {
+        font-family: Roboto, sans-serif;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    } 
+     div#carouselExampleCaptions {
+        position: relative;
+        height: 100vh;
+        top: -221px;
+    }
+}
